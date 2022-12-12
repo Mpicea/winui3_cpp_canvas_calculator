@@ -1,0 +1,25 @@
+﻿<Window
+    x:Class="canvas2.MainWindow"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:canvas2"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:controls="using:Microsoft.UI.Xaml.Controls" 
+    mc:Ignorable="d">
+
+    <StackPanel>
+        <Canvas x:Name="Control1" Width="600" Height="600" Background="Silver"  VerticalAlignment="Center">
+            <TextBox x:Name="va" Header="a_num" Canvas.Left="100" Canvas.Top="100"/>
+            <TextBox x:Name="vb" Header="b_num" Canvas.Left="200" Canvas.Top="200"/>
+            <Button x:Name="plus" Click="plus_Click" Canvas.Left="300" Canvas.Top="300">+</Button>
+            <TextBox x:Name="vc" Header="a+b" Canvas.Left="400" Canvas.Top="400" IsReadOnly="True"/>
+        </Canvas>
+        <StackPanel Orientation="Horizontal">
+            <StackPanel Margin="16,0,0,0">
+                <Slider x:Name="LeftSlider" Header="Plus.Left" Minimum="-300" Maximum="300" StepFrequency="1" Width="500" ValueChanged="LeftSlider_ValueChanged" />
+                <Slider x:Name="TopSlider" Header="Plus.Top" Minimum="-300" Maximum="300" StepFrequency="1" Width="500" ValueChanged="TopSlider_ValueChanged" />
+            </StackPanel>
+        </StackPanel>
+    </StackPanel>
+</Window>
