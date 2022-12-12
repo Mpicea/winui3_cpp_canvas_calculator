@@ -28,4 +28,4 @@ Visual studio 2022에서 winui3 cpp 빈앱패키지됨으로 작성했습니다
 * rotation이 0.01이다 보니 중심값도 그에 맞춰 조금씩만 이동하게 됩니다. 슬라이더 값을 저장할 때 반비례하도록 큰 값을 저장합니다.
 
 ## 동영상
-https://youtu.be/s5_B4fnTDLw
+https://youtu.be/4cYtc5kKmp4
