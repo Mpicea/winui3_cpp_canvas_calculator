@@ -26,6 +26,11 @@ Visual studio 2022에서 winui3 cpp 빈앱패키지됨으로 작성했습니다
 - 준비한 vector로 버튼의 중심값에 지정합니다. 중심값, centerpoint는 회전에 영향을 줄 수 있지만 위치에도 영향을 줄 수 있기에 사용하였습니다.
 - 그 후 centerpoint의 위치를 적용하기 위해 약간의 회전을 줍니다. ==> rotation
 * rotation이 0.01이다 보니 중심값도 그에 맞춰 조금씩만 이동하게 됩니다. 슬라이더 값을 저장할 때 반비례하도록 큰 값을 저장합니다.
-
+  
+## 참고 자료  
+- https://learn.microsoft.com/ko-kr/windows/win32/numerics_h/float3-structure
+- https://learn.microsoft.com/ko-kr/uwp/api/windows.ui.xaml.controls.button?view=winrt-22621
+- https://learn.microsoft.com/en-us/uwp/api/windows.ui.xaml.controls.textbox?view=winrt-22621
+  
 ## 동영상
 https://youtu.be/4cYtc5kKmp4
